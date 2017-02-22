@@ -3,13 +3,14 @@ module.exports = {
         "internship": "（实习）"
     },
     skill_type: {
-        "frontend": "iOS开发",
-        "backend": "其他技术栈",
-        "miscellaneous": "其他"
+        "frontend": "前端",
+        "backend": "后台",
+        "maintenance": "运维",
+        "other": "其他"
     },
     education_type: {
         "undergraduate": "（本科）",
-        "graduate":" (硕士) "
+        "master":" (硕士) "
     },
     link_type: {
         "zhihu": "知乎",
@@ -31,7 +32,7 @@ module.exports = {
             "en": "Experience"
         },
         "skills": {
-            "ch": "技能",
+            "ch": "技能栈",
             "en": "Skills"
         }
     },

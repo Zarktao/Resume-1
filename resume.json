@@ -1,31 +1,24 @@
 {
  "data_lang": "zh-CN",
-  "ga_id": "UA-63818301-2",
-  "resume_title": "王琨 - 个人简历",
-  "name": "王琨",
-  "repo": "https://github.com/luckymore0520/resume.git",
-  "job_description": ["iOS开发工程师", "软件工程师"],
+  "ga_id": "UA-92459706-1",
+  "resume_title": "王鑫 - 个人简历",
+  "name": "王鑫",
+  "repo": "https://github.com/xwang1024/Resume.git",
+  "job_description": ["Web前端工程师", "JS全栈工程师"],
   "contact": {
-    "phone": "18606269492",
-    "email": "njuluckwang@gmail.com",
+    "phone": "15850770332",
+    "email": "xwang1024@126.com",
     "wechat": {
-      "id": "nju_luck_wang",
-      "qrcode": "static/wechat.svg"
-    },
-    "sinaweibo": {
-      "id": "___弈阳",
-      "url": "http://weibo.com/u/2274597140"
+      "id": "wxppt1220",
+      "qrcode": "static/wechat.png"
     },
     "github": {
-      "id": "luckymore0520"
-    },
-    "blog": {
-      "url": "http://blog.luckmore.wang"
+      "id": "xwang1024"
     }
   },
   "links": [{
     "type": "repo",
-    "url": "https://github.com/luckymore0520/resume"
+    "url": "https://github.com/xwang1024/Resume"
 
   }, {
     "type": "pdf",
@@ -39,14 +32,14 @@
     "start": "2012",
     "end": "2016",
     "honor": [
-      "2012 - 2013 **廖式奖学金**",
-      "2013 - 2014 **郑钢奖学金**",
-      "2014        **花旗杯金融与信息技术应用大赛一等奖**",
+      "2012 - 2013 **软件学院院服设计大赛一等奖**",
+      "2013 - 2014 **国家励志奖学金**",
+      "2014        **南京大学“励志模范”**",
       "2016        **南京大学优秀毕业生**"
     ]
   },
     {
-    "type": "graduate",
+    "type": "master",
     "name": "南京大学",
     "major": "软件工程",
     "start": "2016",
@@ -54,221 +47,167 @@
     "honor":[]
     }
   ],
-  "language": [{
-    "type": "english",
-    "certificate": [{
-      "type": "CET-4",
-      "full": "750",
-      "score": "598"
-    }, {
-      "type": "CET-6",
-      "full": "750",
-      "score": "545"
-    }],
-    "description": [
-      "科学上网，熟练使用谷歌进行英文检索，自行解决问题",
-      "流畅阅读英文专业书籍、文档",
-      "能够在 Stack Overflow、Github 等社区正常进行英文交流"
-    ]
-  }],
   "experience": [ {
     "type": "internship",
-    "techtype": "项目经理",
-    "place": "南京一可米互联网有限公司（创业）",
-    "start": "2016-9",
-    "end": "2017-1",
-    "name": "项目经理",
+    "techtype": "Web前端开发",
+    "place": "南京一可米互联网有限公司 [创业]",
+    "start": "2016-09",
+    "end": "2017-02",
+    "name": "Web前端开发",
     "description": [
-      "负责整个技术团队的项目管理，包括需求对接、项目计划、任务分配、进度评审、产品验证发布等工作。整合开发资源，保证所有开发任务能够顺利完成。",
-      "主导完成了另外一个项目——course+，从产品设计到最终的实现、上线、盈利。个人除了带领团队在20天内完成所有的开发任务外，还完成了原型设计、 UI 设计和服务器接口的设计和实现。",
-      "作为 `Scrum Master` 带领技术团队使用 `Scrum` 开发 course+ 新版"
+      "对已上线的系统“米盒”进行前端的`模块化重构`，处理原有前端存在的 Bug",
+      "在“米盒”原有 PHP 后台和前端之间搭建` Node 渲染层`，使用` Handlebars `进行后台渲染，使用` Redis `对常用数据进行缓存，加快前端渲染速度，对于已有 ajax 接口使用透明代理的方式进行透传",
+      "负责` SQL 数据库设计`",
+      "15天内独立完成了“ Course+ 项目”的运营平台（CMS系统）。前端使用 `H5` + `less` + `jQuery`，通过 `sea.js` 组织模块，编写 `Gulp` 脚本：使用 `Babel` 支持 `ES6`，编译 `less`，生成 `sourceMap`，代码 `minify`/`uglify`，生产模式文件名 hash，开发模式 `browserSync` 自动刷新等；后台使用 `Express.js` 提供 Restful 接口",
+      "负责服务器管理和日常维护，为团队搭建 Gogs 开发平台，负责 “Course+” 项目部署，配置 HTTPS 协议",
+      "使用`React`开发新版 “Course+ 项目”，使用 `Redux` 进行状态管理，使用 `fetch` 获取数据，并对 fetch 进行了封装，完成了时间轴、 URL 解析等组件和工具类",
+      "独立完成 “Course+ 项目”的直播页面，使用 `WebSocket` 完成弹幕功能的前后台，使用React封装H5原生播放器，并通过 `flv.js` 支持了直播 FLV 流"
     ],
-    "stack": ["项目管理", "Scrum", "产品设计"]
+    "stack": ["前端重构", "React", "Node", "WebSocket"]
   }, {
     "type": "internship",
-    "techtype": "iOS",
-    "place": "掌赢信息科技",
-    "start": "2015-2",
-    "end": "2015-12",
-    "name": "iOS开发",
+    "techtype": "微信二次开发",
+    "place": "南京亿丰嘉玮新网络科技 [创业]",
+    "start": "2016-05",
+    "end": "2016-08",
+    "name": "Web / 微信前端开发",
     "description": [
-      "完成视频聊天应用—— `ChatGame` UI层的重构，使用 `Xib` + `AutoLayout` 替代纯代码手写的 UI , 易于后期维护和适配",
-      "完成每周相关新增功能和需求",
-      "完成项目的埋点工作，实现一套利用 `Aspect` 将埋点与原有逻辑分离的埋点方案",
-      "完成应用新版本的核心需求——视频卡通化，通过`骨骼动画`将视频与可动画的卡通人物相结合",
-      "在原先 C2C 单聊的基础上实现了群组聊天",
-      "相比之前的应用，该应用复杂度明显提高，尤其是在视频聊天部分的逻辑相当复杂，很好地锻炼了我处理复杂逻辑的能力，也更好地理解了设计模式在客户端开发中的重要意义",
-      "修改应用 Bug ，提高应用性能， 值得一提的是，在公司的 Bug 平台上， 由我个人解决的 Bug 大致占了所有解决数的一半，简而言之自认有比较强的解决问题、发现问题的能力"
+      "使用 `H5` + `less` + `jQuery` 完成“帕不怕公众号”微信管理后台，使用 `ECharts` 进行数据的图形化展示，独立完成高度可定制的量表（问卷）生成模块，可根据多种评分规则向用户提供建议",
+      "使用 `H5` + `less` + `原生JS` 完成“帕不怕公众号”微信移动端界面，完成通过采集设备加速度和陀螺仪信息进行的“摇钱树”` Html5 小游戏`"
     ],
-    "stack": ["iOS", "Objective", "Xib", "Autolayout", "Debug"]
+    "stack": ["微信二次开发", "Html5游戏"]
   }, {
     "type": "internship",
-    "techtype": "iOS",
-    "place": "福猫科技（创业）",
-    "start": "2014-5",
-    "end": "2015-2",
-    "name": "iOS开发",
+    "techtype": "Web前端开发",
+    "place": "杭州数梦工场网络科技有限公司",
+    "start": "2015-06",
+    "end": "2016-04",
+    "name": "Web前端开发",
     "description": [
-      "自学 iOS 开发， 两个月内完成包括`掌上南大`在内的18所学校的 App 的开发并上架，同时完成后期维护工作，使用 `storyboard` + `AutoLayout` 进行界面布局， 使用 google 的 `protol buffer` 技术完成数据传输， 通过 git 分支的方式维护 18 个学校的不同 App",
-      "三周内独立完成 App ——`研大大` iOS 开发，项目涉及到了包括自定义相机、自定义相册、自定义图片浏览器、图片音乐的存储、音乐视频的播放等模块"
+      "首次接触到工程化和组件化的前端开发",
+      "1周时间快速上手 `AngularJS`, `bower`, `npm`, `less`, `gulp`, 之后从事缺陷修复工作，项目结束时由我修复的 Bug 占总量的一半以上",
+      "参加 “PaaS 平台”中虚拟机转售模块、插件模块的开发，主要使用技术为 `AngularJS`。同时也认识了 `Cloud Foundry` 和 `Docker` ",
+      "在“政采云”项目中，进行结算管理、发票管理、待办模块、消息模块的开发，完成了 Session 管理、Cookie 管理、URL 解析、Query 解析等工具类，完成了搜索组件、表格组件、Panel 组件、Alert 组件供整个开发小组使用，主要使用的技术为 `Html5`, `Babel-ES6`, `less`",
+      "“政采云”项目使用 `jigglypuff` 为前端提供数据 mock 以及模拟后台渲染以进行前后台分离开发，使用 `linner` 作为前端编译工具。在使用前者时我发现模拟渲染和后台渲染不一致的问题，我定位了问题并联系开发者，通过向其提交代码改进了该工具",
+      "“政采云”项目工期紧，业务复杂，在开发过程中我面临了从未感受过的压力，在一起实习的同学都选择放弃时，我坚持了下来，我第一次实习最大的收获就是学会了如何面对巨大的压力"
     ],
-    "stack": ["iOS", "Objective", "SDWebImage", "MWPhotoBrowser"]
+    "stack": ["AngularJS", "bower", "node", "less", "gulp", "handlebars", "es6"]
   },
   {
     "type": "project",
-    "techtype": "iOS & Android",
+    "techtype": "JavaFX",
     "project_type": "personal",
-    "name": "Co!orMix",
-    "source": "https://github.com/Cee/ColorMix",
-    "demo": "http://colormix.cee.moe/",
+    "name": "SIF-Resource-Explorer",
+    "source": "https://github.com/xwang1024/SIF-Resource-Explorer",
     "description": [
-      "一款基于 iOS 以及 Android 平台的颜色小游戏，由一个三人小团队完成，本人负责主要编码工作",
-      "使用 `MVC` 架构，iOS 方面使用 `Size Classes` + `Autolayout` 完成界面搭建，支持各种尺寸的 iOS 设备，支持横竖屏切换",
-      "加入友盟统计，支持 Game Center，上线至今错误率为0%",
-      "这是一次闪电式的开发，从项目的设计到最终的编码以及上线均在一周内完成， 然而依旧注重代码质量， 所有的提交均通过 `Pull Request` 由团队成员 Review 过后方可入库， 从而保障了项目的稳定性",
-      "项目虽小，但是从起初的设计上就严格遵守了面向对象的编程范式，从而具有很好的可读性"
+      "手游 “Lovelive 学员偶像祭” 图片资源合成和导出工具",
+      "`反编译`手游的 Android 包和 C# 编写的工具包，分析该手游自定义图片格式中数据的组织形式，将自定义图片格式转换为常见的图片格式",
+      "通过反编译得到的代码，确定图片合成逻辑",
+      "使用 Java8 开发，使用 `JavaFX` 编写 UI，用户可通过选项查看资源或下载资源"
     ],
-    "stack": ["iOS", "Objective-C"]
-  },
-  {
-    "type": "project",
-    "techtype": "iOS",
-    "project_type": "personal",
-    "name": "GreenTea",
-    "source": "https://github.com/luckymore0520/GreenTea",
-    "demo": "https://github.com/luckymore0520/GreenTea",
-    "description": [
-      "毕设项目，一款完整的奶茶集点卡应用",
-      "基于 `Swift 2.3` 开发， 使用 `Sketch` 完成 UI 设计， 从需求分析、项目设计到最终的实现均有个人独立完成",
-      "使用 `LeanCloud` 的数据存储服务来替代服务器的开发",
-      "接入高德地图，完成定位、地图、兴趣点选择相关业务",
-      "尝试使用 `面向协议编程的MVVM` 模式来利用协议扩展的新特性简化 UI 渲染的逻辑， 给 Controller 瘦身",
-      "尝试使用协议扩展配合组合替代继承降低代码耦合度"
-    ],
-    "stack": ["iOS", "Swift" , "设计"]
+    "stack": ["JavaFX", "图片编码解码"]
   },
   {
     "type": "project",
     "techtype": "iOS",
     "project_type": "work",
-    "name": "章鱼互动",
-    "demo": "https://itunes.apple.com/us/app/%E7%AB%A0%E9%B1%BC%E4%BA%92%E5%8A%A8/id1176536756?l=zh&ls=1&mt=8",
+    "name": "南京大学后勤集团 - 人力资源管理系统",
+    "source": "https://github.com/xwang1024/hrms-node",
     "description": [
-      "首次以个人名义在众包平台实现网上接的外包项目并成功交付上线，使用 `Objective-C` 进行开发",
-      "灵活选择 `Xib` 与 `Masonry` 配合的方式完成不同需求页面的布局和变化",
-      "项目为足球竞技项目，规模适中，整体的难点在于复杂的页面布局、开设对战和显示的逻辑以及各种特殊情况的处理",
-      "实时性要求与数据一致性检查",
-      "接入内购"
+      "3个月独立完成整个项目的开发，包括需求获取，系统设计、部署和测试，以及后续的维护演进工作",
+      "后台使用 `Node.js` + `Express.js` + `MongoDB`，提供Restful接口，使用 `EventEmitter` 解决 `Callback Hell` 问题，使用 `async` 解决同步问题，使用 `aggregate` 完成数据的分析和统计；后台通过使用 `node-schedule` 进行数据备份和定期统计",
+      "前台使用 `AngularJS` + `less` + `Jade` 进行开发，编写辅助脚本将 `swagger` 文档直接转换为 ngService 与后台的 Restful 接口对接，大幅减少了工作量。项目中使用 `ngGrid` 展示大量数据，使用 `$formatter` 和 `$parser` 完成树形下拉选择框的 directive"
     ],
-    "stack": ["iOS", "CocoaPods"]
-  },
-  {
-    "type": "project",
-    "techtype": "iOS",
-    "project_type": "work",
-    "name": "OK帮",
-    "description": [
-      "第一个实际上的外包项目，众包平台（http://ok-bang.com/）的 iOS 端开发",
-      "自己对 `AFNetworking` 完成了一层封装，用于处理网络请求",
-      "利用 APNS 在线推送机制基本实现了简单实时聊天， 使用 `JSQMessage` 完成聊天页面的布局",
-      "接入 Ping++ ，支持支付功能"
-    ],
-    "stack": ["iOS", "CocoaPods"]
-  },{
-    "type": "project",
-    "techtype": "iOS",
-    "project_type": "team",
-    "name": "米盒",
-    "description": [
-      "学生创业项目（http://mebox.top）的 iOS 端开发",
-      "第一次使用 `Swift` 进行实际项目的开发",
-      "使用了 `Kingfisher`、`Alamofire`、`SwiftyJSON` 等主流Swift框架搭配一些 Objective-C 开发的 UI 组件进行开发",
-      "在完成 1.0 的开发不久后， 继续带队进行 2.0 的开发， 基于 Swift 2.3， 利用协议扩展的新特性尝试使用面向协议范式进行编程"
-    ],
-    "stack": ["iOS", "Swift" , "POP"]
+    "stack": ["AngularJS", "bower", "node", "less", "gulp", "jade"]
   }],
   "skills": [{
     "type": "frontend",
     "item": [{
-      "summary": "`Objective-C`",
+      "summary": "`HTML / CSS / JavaScript`",
       "description": [
-        "熟练使用 `Objective-C` 编写 `iOS `应用",
-        "熟练使用 `Xib` 以及 `Storyboard` 进行 UI 上的编写， 典型 IB 党， 当然并不排斥使用一些开源的框架类似 `Masonry` 和 `Cartography` 来进行约束的代码配置",
-        "对 `Objective-C` 内存管理机制，runtime、block、gcd、runloop、协议等有一定了解",
-        "熟练使用 `Instruments` 进行内存、效率相关的调试，掌握基本的利用 `Xcode` 的调试技巧",
-        "熟练使用系统相关API，熟练使用 `UIKit` 搭建 iOS 应用",
-        "良好的编码习惯，读过两遍《Effective Objective-C 2.0》 懂得如何写出高效优雅的 `Objective-C` 代码"
-        ]
-    },{
-        "summary": "`Swift`",
-        "description": [
-          "理解并尝试使用 Swift 语言一些新的特性",
-          "对函数式编程范式有一定理解和尝试，在实际项目中尝试使用函数式编程的思想完成一些功能的实现",
-          "了解并能区分 Objective-C 和 Swift 的区别，在实际项目中尽量尝试用 Swift 的思想来完成项目",
-          "在使用 `Swift` 时，在实际项目中尝试多使用结构体、枚举以及面向协议的编程方式",
-          "使用 Swift 完成过一些小的个人项目， 也以团队的形式投入过正式的创业项目"
-        ]
-      },
-    {
-      "summary": "`Xcode`",
-      "description": [
-        "熟练使用 Xcode 进行 iOS 项目开发",
-        "熟练利用 Instruments 进行项目调试",
-        "理解并熟练掌握应用发布流程、证书机制",
-        "尤其熟悉使用 Xcode 完成应用的国际化的相关流程"
+        "熟悉 HTML 的基本规范和常见标签，熟悉 HTML5 的新标签和语义化规范，熟悉 CSS3 样式",
+        "熟悉 Jade(Pug)，handlebars 等模板语言",
+        "有强迫症，能精准地还原设计图",
+        "熟悉 JavaScript，了解浏览器 JavaScript 的基本工作原理，了解基本的模块化方式，熟悉ES6规范",
+        "熟悉 jQuery，熟练使用 $.ajax 或 fetch 和服务器进行数据交互",
+        "会使用 npm，yarn 或 bower 管理项目依赖"
       ]
-    }, 
-    {
-      "summary": "` iOS 项目第三方框架`",
+    }, {
+      "summary": "`AngularJS`",
       "description": [
-        "在项目中习惯使用 CocoaPods 完成第三方依赖，同时也使用过 CocoaPods 制作并发布自己的第三方库",
-        "在项目中使用过 AFNetworking、SDWebImage, MWPhotoBrowser、YYModel、POP、Masonry 等第三方 Objective-C 库",
-        "在项目中使用过 Alamofire、Kingfisher、SwiftyJSON、Carthage 等第三方 Swift 库",
-        "有丰富的集成一些第三方开放平台的经验",
-        "`使用第三方API时习惯在外面封装一层方便日后变更而不影响自身业务代码逻辑`"
+        "了解 Module, Controller, Service, Filter, Directive 的概念和编写方式，熟悉基本的内置指令和过滤器",
+        "了解 AngularJS 的依赖注入原理",
+        "使用 config 对 $stateProvider 配置定义路由"
+      ]
+    }, {
+      "summary": "`React / Webpack`",
+      "description": [
+        "了解 Webpack 配置文件编写方式，以搭建 React 开发以及部署环境",
+        "熟悉基本的 JSX 语法，了解 Component 的生命周期，了解 Component 间的数据传递方式",
+        "了解使用 Redux 进行状态管理的过程"
+      ]
+    }, {
+      "summary": "`LESS`",
+      "description": [
+        "了解变量定义方式、基本语法和嵌套规则",
+        "了解常见的 LESS 文件组织形式（类 Bootstrap）",
+        "了解 mixin 的编写方式和常见的内建函数"
+      ]
+    }, {
+      "summary": "`gulp`",
+      "description": [
+        "了解 gulp 基于 Stream 和 Task 的思想",
+        "熟悉常用的 gulp 插件，能独立编写 gulp 脚本，完成源文件的编译、合并、压缩、sourceMap、hash 等操作"
       ]
     }]
   },
   {
     "type": "backend",
     "item": [{
-      "summary": "`Git`",
+      "summary": "`Node.js`",
       "description": [
-        "熟练使用 git 基本命令，了解团队开发相关 git 使用流程",
-        "了解并使用过 Git Flow 工作方法",
-        "熟练使用 Source Tree 图形化 Git 工具"
+        "了解 node 的基本原理，能够使用 express 实现 Web 服务，了解 async，request 等常用库的使用方式",
+        "熟悉 node 的异步模型，习惯使用回调或 Promise 的方式处理问题",
+        "会使用 PM2 部署，进行负载均衡和进程守护"
       ]
     }, {
-      "summary": "`React Native`",
+      "summary": "`Mysql`",
       "description": [
-        "阅读并研究过 React Native 的相关源码并加以整理，理解其桥通讯机制、模块化设计以及消息传递机制",
-        "了解如何使用 React Native 相关 API 来完成简单应用的开发"
+        "了解 Mysql 的常见命令，了解数据库设计的基本原则",
+        "了解常见的 sql 数据库优化方式"
       ]
-    },
-    {
-      "summary": "`Sketch`",
+    }, {
+      "summary": "`MongoDB`",
       "description": [
-        "有一定的设计基础，对设计和交互有自己的理解，懂得 Sketch 的基本操作",
-        "习惯直接从美术那里拿 Sketch 源文件来完成 UI 的开发而不需要额外切图"
+        "了解 MongoDB 和 Mysql 的区别及其适用场景",
+        "了解 MongoDB 的常用操作，会使用 aggregate 对数据进行统计"
       ]
-    },
-    {
-      "summary": "`前端`",
-      "description":[
-        "有一定的前端基础，有实际的前端项目的开发经验",
-        "熟悉 `React` 框架， 使用 `React` 完成过一些项目以及组件的开发"
-      ]
-    },
-    {
-      "summary": "`其他`",
+    }, {
+      "summary": "`Linux (Debian/Ubuntu)`",
       "description": [
-        "一年 `Scrum` 使用经验， 一个月 `Scrum Master` 管理经验",
-        "三年 `Mac` 使用经验，熟悉常用命令与配置，熟练使用命令行",
-        "熟悉 `Python`，能够完成简单的 Python 脚本编写，使用过 Django、Flask 搭建过 Web 应用以及服务器",
-        "熟练使用 `Java` 语言编写代码，编写过一些 Java 桌面程序、游戏",
-        "对 `Android` 开发有所涉猎，开发过几款安卓应用并发布市场",
-        "习惯使用`订阅`的方式来关注圈内技术人员的博客，获取新知识",
-        "习惯使用 `Pocket` 的方式来收藏干货，并整理"
+        "了解常见的 Linux 命令，会搭建 Gitlab、gogs、NGINX 等服务，会配置常见的执行环境"
+      ]
+    }]
+  },
+  {
+    "type": "other",
+    "item": [{
+      "summary": "`Git`",
+      "description": [
+        "熟练使用 git 基本命令以及常见的图形化 git 工具",
+        "了解团队使用的 Merge-based 或 Pull-based 等协作方式，解并使用过 Git Flow 工作方法"
+      ]
+    }, {
+      "summary": "`Photoshop`",
+      "description": [
+        "有长时间的 PS 使用经验，可熟练完成 PS 基本操作",
+        "熟悉图层、通道、智能对象等概念，可独立完成简单的图像处理工作"
+      ]
+    }, {
+      "summary": "`科学上网`",
+      "description": [
+        "善于通过 Google 获取信息，有较强的学习能力",
+        "在 Stack Overflow、Github 等网站可以正常英文交流"
       ]
     }]
   }]
