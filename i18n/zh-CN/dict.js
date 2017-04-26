@@ -10,7 +10,7 @@ module.exports = {
     },
     education_type: {
         "undergraduate": "（本科）",
-        "master":" (硕士) "
+        "master":"（工程硕士）"
     },
     link_type: {
         "zhihu": "知乎",

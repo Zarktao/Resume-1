@@ -6,10 +6,8 @@ block education
     each item in education
       li.timeline-item(class="education-" + item.type)
         h3.timeline-title
-          time.education-time #{item.start} ~ #{item.end}
-        dl.education-description.timeline-content
-          dt.education-name= item.name
-            small.education-major= item.major + education_type[item.type]
+          time.education-time #{item.start} ~ #{item.end}：#{item.name} - #{item.major + education_type[item.type]}
+        dl.education-description.timeline-content(style="margin-top: 1em")
           each honor in item.honor
             dd.education-honor!= highlight(honor)
 
